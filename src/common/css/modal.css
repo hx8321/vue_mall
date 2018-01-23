@@ -1,0 +1,20 @@
+#modal{
+	display: none;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 10px;
+	width:80%;
+	height:40px;
+	text-align: center;
+	color:#fff;
+	line-height: 40px;
+	z-index: 10;
+}
+#modal>span{
+    vertical-align: middle;
+}

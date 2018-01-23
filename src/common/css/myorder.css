@@ -1,0 +1,177 @@
+.myorder-content .mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+	color: #7E8C8D;
+} 
+.myorder-content .mui-segmented-control-negative.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color:#DD524D;
+}
+.myorder-content .prompting{
+	text-align: center;
+	color: #7E8C8D;
+}
+.myorder-content .mui-control-content{
+	background-color:#eeeeee;
+}
+
+.myorder-content .mui-control-content {
+  position: static;
+}
+
+.myorder-content .mui-scroll-wrapper{
+	top: 5.142857rem;
+}
+
+.myorder-content .mui-control-content>li>div>ul>li{
+	margin: auto;
+	margin-top: 0.857142rem;
+	border-radius: 0.342857rem;
+	background-color: white;
+	width: 96%;
+	padding: 0.285714rem;
+}
+.myorder-content .mui-control-content .order-header{
+	position: relative;
+	border-bottom: 0.057142rem #eeeeee solid;
+	color: #7E8C8D;
+	vertical-align: middle;
+	padding: 0.285714rem 0 0.571428rem;
+}
+
+.myorder-content .mui-control-content .order-header input{
+	left: 0;
+	bottom: 0.285714rem;
+	top: 0;
+	
+}
+
+.myorder-content .mui-control-content .order-header input:before{
+	color: orangered;
+}
+
+/*.myorder-content .mui-control-content .order-header.mui-checkbox img{
+	margin-left: 2.571428rem;
+}*/
+
+.myorder-content .mui-control-content .order-header img{
+	width: 1.371428rem;
+	vertical-align: middle;
+	margin-right: 0.285714rem;
+}
+.myorder-content .mui-control-content .order-header span{
+	vertical-align: middle;
+}
+.myorder-content .mui-control-content .order-header>span:last-of-type{
+	position: absolute;
+	right: 0;
+	bottom: 0.571428rem;
+	color: orange;
+}
+
+.myorder-content .order-content{
+	overflow: hidden;
+	padding: 0.571428rem 0;
+}
+
+.myorder-content .order-content>div{
+	float: left;
+}
+
+.myorder-content .order-content>div>img{
+	width: 100%;
+}
+
+.myorder-content .order-content>div:first-of-type{
+	width: 30%;
+	text-align: center;
+}
+
+.myorder-content .order-content>div:last-of-type{
+	width: 70%;
+	padding-top: 0.685714rem;
+	padding-left: 0.571428rem;
+}
+
+.myorder-content .order-content>div:last-of-type p{
+	padding-bottom: 0.571428rem;
+}
+
+.myorder-content .order-content>div:last-of-type p:first-of-type{
+	color: black;
+	font-size: 1.2rem;
+	margin-bottom: 0.857142rem;
+}
+
+.myorder-content .order-content>div:last-of-type p:last-of-type{
+	padding-bottom: 0;
+	position: relative;
+}
+
+.myorder-content .order-content>div:last-of-type p:last-of-type span:nth-of-type(2){
+	text-decoration: line-through;
+	padding-left: 0.571428rem;
+}
+
+.myorder-content .order-content>div:last-of-type p:last-of-type span:nth-of-type(2n+1){
+	font-size: 1.142857rem;
+}
+
+.myorder-content .order-content>div:last-of-type p:last-of-type span:last-of-type{
+	position: absolute;
+	right: 0.857142rem;
+	bottom: 0;
+	color: black;
+}
+
+.myorder-content .order-data,.myorder-content .order-control{
+	text-align: right;
+	border-top:0.057142rem #eeeeee solid;
+	padding: 0.571428rem 0;
+}
+
+.myorder-content .order-data{
+	font-size: 0.857142rem;
+}
+
+.myorder-content .order-data span{
+	font-size: 1.428571rem;
+}
+
+.myorder-content .order-control{
+	padding-bottom: 0.285714rem;
+}
+
+.myorder-content .order-control span{
+	display: inline-block;
+	border: 1px #eeeeee solid;
+	padding: 0.285714rem 0.571428rem;
+	border-radius: 1.142857rem;
+}
+
+.myorder-content .order-control span:last-of-type{
+	border-color: orange;
+	color: orange;
+}
+.myorder-content #myorder-pay .totup{
+	display: none;
+	padding: 0.457142rem 0.4rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 0;
+	text-align: right;
+}
+.myorder-content #myorder-pay .totup span{
+	display: inline-block;
+	border: 1px orangered solid;
+	padding: 0.571428rem 0.571428rem;
+	border-radius: 1.142857rem;
+	color: orangered;
+}
+@media only screen and (max-width:360px) {
+	.myorder-content .order-content>div:last-of-type p:first-of-type{
+		margin-bottom: 1.428571rem;
+	}
+	.myorder-content .mui-scroll-wrapper{
+		top: 6.857142rem;
+	}
+}

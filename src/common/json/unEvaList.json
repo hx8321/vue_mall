@@ -1,0 +1,8 @@
+{
+	"rows":[
+		{"goodsids":1,"goodspath":"","goodstile":"sp1","transactionid":"2017000"},
+		{"goodsids":2,"goodspath":"","goodstile":"sp2","transactionid":"2017001"},
+		{"goodsids":3,"goodspath":"","goodstile":"sp3","transactionid":"2017002"}
+	],
+	"total":3
+}

@@ -1,0 +1,65 @@
+.writeComment .writeComment-head .mui-icon-back:before, .mui-icon-left-nav:before{
+	color: silver;
+}
+.writeComment .writeComment-head .mui-title{
+	color:#7e8c8d;
+}
+.writeComment>div:first-of-type{
+	background-color: white;
+	padding: 0.857142rem;
+}
+.writeComment .writeComment-content{
+	border-bottom:0.028571rem solid rgba(126,140,141,0.2);
+	padding-bottom: 0.571428rem;
+	margin-bottom: 1.142857rem;
+}
+.writeComment .writeComment-content>li{
+	padding: 0.571428rem;
+}
+.writeComment .writeComment-content .wcc-user>img{
+	width: 2.571428rem;
+	vertical-align:middle;
+	margin-right: 0.571428rem;
+	border-radius: 50%;
+}
+.writeComment .writeComment-content .wcc-score>img{
+	width:1.714285rem;
+	margin-left: 0.571428rem;
+}
+.writeComment .writeComment-content .wcc-content>textarea{
+	margin: 0;
+}
+.writeComment .writeComment-content .wcc-control{
+	position: relative;
+	/*text-align: right;*/
+}
+.writeComment .writeComment-content .wcc-control>button:last-of-type{
+	position: absolute;
+	right: 0.571428rem;
+	top: 0.571428rem;
+}
+.writeComment .writeComment-goods{
+	overflow: hidden;
+	background-color: rgba(202,202,202,0.4);
+	padding: 0.457142rem;
+}
+.writeComment .writeComment-order{
+	padding-bottom: 0.857142rem;
+	color: #7e8c8d;
+}
+.writeComment .writeComment-goods>li{
+	float: left;
+	width: 30%;
+}
+.writeComment .writeComment-goods .wcg-img>img{
+	width: 80%;
+}
+.writeComment .writeComment-goods .wcg-content{
+	width: 70%;
+	padding-top: 0.742857rem;
+}
+.writeComment .writeComment-goods .wcg-content>p:first-of-type{
+	color: black;
+	font-size: 1.314285rem;
+	font-weight: 700;
+}

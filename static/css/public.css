@@ -1,0 +1,182 @@
+.public-margint{
+	margin-top: 2.685714rem;
+}
+.public-marginb{
+	margin-bottom: 4.342857rem;
+}
+@media only screen and (max-width:360px) {
+	html{
+		font-size: 12px;
+	}
+	body #main{
+		margin-bottom: 5.742857rem;
+	}
+	body .tops>div{
+		padding-top:0.857142rem;
+	}
+	.public-margint{
+		margin-top: 3.428571rem;
+	}
+	.public-marginb{
+		margin-bottom: 5.714285rem;
+	}
+}
+.white{
+	background-color: white;
+}
+.fontH{
+	font-size: 1.142857rem;
+}
+.fontblack{
+	/*color: black;*/
+	color:#7e8c8d;
+}
+.fontsilver{
+	color: silver;
+}
+.fontsmall{
+	font-size: 0.342857rem;
+}
+.fontRed{
+	color: red;
+}
+.fontWeight{
+	font-weight: bold;
+}
+.textline-through{
+	text-decoration:line-through;
+}
+.line{
+	display: inline-block;
+	width: 0.285714rem;
+	background-color: red;
+	height: 60%;
+	position: relative;
+	top:20%;
+	margin-right: 0.571428rem;
+}
+.brc{
+	border-radius:1.142857rem;
+	background-color: red;
+	padding: 0.285714rem;
+	color: white;
+	font-size: 0.342857rem;
+}
+.img-headers{
+	text-align: center;
+	background-color: #f6f6f6;
+}	
+.img-headers>img{
+	width:50%;
+}
+.mui-popup-buttons>span{
+	color: orange;
+}
+.mui-checkbox input[type=checkbox]:checked:before{
+    color: orangered;
+}
+.mui-dtpicker-header .mui-btn-blue,.mui-poppicker-header .mui-btn-blue{
+	background-color: #ec971f;
+	border-color: #ec971f;
+}
+.break-public{
+	word-break: break-all;
+}
+
+.upliftWindow{
+	z-index: 2;
+	position: fixed;
+	height: 56%;
+	background-color: white;
+	/*bottom: 2.857142rem;*/
+	bottom: -100%;
+	left: 0;
+	width: 100%;
+}
+.upliftWindow .upliftTop{
+	overflow: hidden;
+	padding: 0 0.857142rem;
+	padding-top: 1.142857rem;
+	width: 100%;
+	height: 36%;
+}
+.upliftWindow .upliftTop>div{
+	float: left;
+	height: 100%;
+}
+.upliftWindow .upliftTop>div:first-of-type{
+	width: 30%;
+}
+.upliftWindow .upliftTop>div:first-of-type>div{
+	position: absolute;
+	background-color: white;
+	z-index: 10;
+	padding: 0.285714rem;
+	border-radius: 0.571428rem;
+	box-shadow: 4px 2px 8px silver;
+	top: -0.571428rem;
+	left: 0.857142rem;
+	width: 30%;
+}
+.upliftWindow .upliftTop>div:first-of-type>div>img{
+	width: 100%;
+}
+.upliftWindow .upliftTop>div:nth-of-type(2){
+	padding-left: 2.285714rem;
+	width: 60%;
+}
+.upliftWindow .upliftTop>div:nth-of-type(2)>ul>li{
+	padding-bottom: 0.571428rem;
+}
+.upliftWindow .upliftTop>div:nth-of-type(2)>ul>li:first-of-type{
+	padding-bottom: 0;
+}
+.upliftWindow .upliftTop>div:nth-of-type(2)>ul>li:last-of-type{
+	padding-bottom: 0;
+	overflow: hidden;
+    white-space: nowrap;
+	text-overflow : ellipsis;
+}
+.upliftWindow .upliftTop>div:last-of-type{
+	width: 10%;
+	text-align: center;
+}
+.upliftWindow .upliftTop>div:last-of-type>img{
+	width:2rem;
+}
+.upliftWindow .upliftBottom{
+	height: 64%;
+	overflow: auto;
+	padding: 0.857142rem 0;
+}
+.upliftWindow .upliftBottom>.upliftBottomItem{
+	padding: 0 0.857142rem;
+}
+.upliftWindow .upliftBottom>.upliftBottomItem>div{
+	padding: 0.571428rem 0;
+}
+.upliftWindow .upliftBottom>.upliftBottomItem>.uBI-content{
+	border-bottom: 0.028571rem solid silver;
+}
+.upliftWindow .upliftBottom .upliftBottomItem .uBI-header{
+	font-size:1.428571rem;
+	font-weight: 600;
+}
+.upliftWindow .upliftBottom .upliftBottomItem .uBI-content span{
+	display: inline-block;
+	padding: 0.457142rem;
+	border-radius:0.857142rem;
+	background-color: silver;
+	margin-bottom: 0.571428rem;
+	margin-right: 0.857142rem;
+}
+.upliftWindow .upliftBottom .upliftBottomItem .uBI-content span.spanActive{
+	background-color: orangered;
+	color: white;
+}
+@media only screen and (max-width:360px) {
+	.upliftWindow{
+		/*bottom: 3.714285rem;*/
+		bottom: -100%;
+	}
+}

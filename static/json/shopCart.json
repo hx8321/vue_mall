@@ -1,0 +1,35 @@
+{
+  "status":1,
+  "result":{
+      "id1":{
+      "shopname":"东升农场",
+      "list":[
+        {
+          "productName":"【悦乡甜-广州】东升农场新垦莲藕3斤",
+          "productPrice":19,
+          "productQuentity":1
+        },
+         {
+          "productName":"【悦乡甜-深圳】东升农场新垦莲藕5斤",
+          "productPrice":20,
+          "productQuentity":5
+        }
+      ]
+    },
+    "id2":{
+      "shopname":"跃龙农场",
+      "list":[
+        {
+          "productName":"【跃龙-广州】东升农场新垦莲藕6斤",
+          "productPrice":19,
+          "productQuentity":1
+        },
+         {
+          "productName":"【【跃龙-深圳】东升农场新垦莲藕7斤",
+          "productPrice":20,
+          "productQuentity":5
+        }
+      ]
+    }
+  }
+}

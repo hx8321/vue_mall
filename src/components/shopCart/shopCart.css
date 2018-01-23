@@ -1,0 +1,373 @@
+body {
+    background-color: rgb(239, 239, 240);
+}
+
+
+/*  */
+
+
+/* .shopCart .hxwrapper {
+    position: fixed;
+    left: 0;
+    top: 44px;
+    bottom: 118px;
+    z-index: 30;
+    width: 100%;
+    overflow: hidden;
+} */
+
+.shopCartWrapper {
+    /*  position: relative;
+    bottom: 100px; */
+}
+
+
+/* .shopCart .hxwrapper .content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 280px;
+    z-index: 30;
+    width: 100%;
+}
+ */
+
+
+/* .shopCart .shopCartWrapper {
+    height: 100%;
+}
+ */
+
+
+/*  */
+
+.shopCart .title {
+    width: 100%;
+    height: 44px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    font-size: 17px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.shopCart .hxwrapper {
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+
+.shopCart .title a {
+    position: absolute;
+    right: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.shopCart .content {
+    background-color: rgb(239, 239, 240);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*  height: 100%; */
+}
+
+.shopCart .content ul {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgb(221, 221, 221);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.shopCart .content ul li a {
+    color: #7e8c8d;
+}
+
+.shopCart .content li:first-child {
+    /*  border-bottom: 1px solid rgb(200,199,204); */
+    padding-top: 16px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+.shopCart .content li {
+    border-bottom: 1px solid rgb(200, 199, 204);
+    padding-bottom: 5px;
+}
+
+.shopCart .content li:last-child {
+    border-bottom: none;
+}
+
+.shopCart .content li:first-child img {
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    margin-left: 48px;
+}
+
+.shopCart .content li:first-child {
+    /*  display: inline-block; */
+}
+
+.shopCart .content li:first-child span {
+    font-size: 26px;
+    color: rgb(143, 143, 148);
+    line-height: 30px;
+    /*  vertical-align: middle; */
+    margin-left: 10px;
+}
+
+.shopCart .content li:first-child a {
+    /* position:absolute;
+    right:10px;
+    vertical-align: bottom; */
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.shopCart .content li:first-child a.edit {
+    display: block;
+}
+
+.shopCart .content li:first-child a.complete {
+    display: none;
+}
+
+.shopCart .content li:first-child input {
+    width: 20px;
+    height: 20px;
+    margin-left: -9px;
+    margin-top: -14px;
+}
+
+.shopCart .content li:not(:first-child) {
+    display: flex;
+    padding-top: 5px;
+    position: relative;
+}
+
+.shopCart .content li:not(:first-child) .label {
+    flex: 0, 0, 20px;
+}
+
+.shopCart .content li:not(:first-child) input {
+    width: 20px;
+    height: 20px;
+    margin-left: -9px;
+    margin-top: 5px;
+}
+
+.shopCart .content li:not(:first-child) img {
+    width: 142px;
+    height: 142px;
+    vertical-align: top;
+    flex: 0, 0, 142px;
+    margin-left: 48px;
+}
+
+.shopCart .content li:not(:first-child) div.order-ner {
+    /*  display:inline-block;
+   vertical-align: top; */
+    flex: 1;
+    display: block;
+    margin-left: 10px;
+}
+
+.shopCart .content li:not(:first-child) div.order-ner2 {
+    /*  display:inline-block;
+   vertical-align: top; */
+    flex: 1;
+    display: none;
+    margin-left: 10px;
+}
+
+.shopCart .content li div.order-ner2 .text {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    margin-left: ;
+}
+
+.shopCart .content li div.order-ner2 .text button {
+    float: left;
+    background-color: rgb(245, 245, 247);
+    vertical-align: middle;
+    border-radius: 0;
+    height: 34px;
+    width: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.shopCart .content li div.order-ner2 .text button.dec {
+    border-radius: 5px 0 0 5px;
+}
+
+.shopCart .content li div.order-ner2 .text button.add {
+    border-radius: 0 5px 5px 0;
+}
+
+.shopCart .content li div.order-ner2 div.text input {
+    float: left;
+    width: 48px;
+    height: 34px;
+    vertical-align: middle;
+    margin: 0px;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+.shopCart .content li div.order-ner2 button.del {
+    background-color: rgb(221, 82, 77);
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #fff;
+    height: 97%;
+}
+
+.shopCart .content li div.order-ner2 span {}
+
+.shopCart .content li:not(:first-child) span.text {
+    line-height: 30px;
+}
+
+.shopCart .content li:not(:first-child) span.kg {
+    color: rgb(137, 137, 148);
+    display: block;
+    line-height: 50px;
+}
+
+.shopCart .content li:not(:first-child) p span {
+    color: rgb(217, 46, 37);
+    margin-right: 10px;
+}
+
+.shopCart .content li:not(:first-child) p b {
+    text-decoration: line-through;
+    margin-right: 16px;
+}
+
+.shopCart .content li:not(:first-child) p strong {
+    color: #000;
+    font-size: 25px;
+}
+
+.shopCart .count {
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 68px;
+    line-height: 50px;
+}
+
+.mui-checkbox input[type=checkbox]:checked:before,
+.mui-radio input[type=radio] {
+    color: rgb(255, 127, 57);
+}
+
+.shopCart .count .box1 {
+    display: inline-block;
+}
+
+.shopCart .count .box1 input {
+    top: -6px;
+}
+
+.shopCart .count .box1 span {
+    font-size: 18px;
+    margin-left: 55px;
+}
+
+.shopCart .count .box2 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 18px;
+}
+
+.shopCart .count .box2 .num {
+    color: rgb(217, 50, 41);
+}
+
+.shopCart .count .box2 .btn {
+    background-color: rgb(255, 68, 0);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+}
+
+
+/* 空购物车 */
+
+.shopCart .content .empty {
+    text-align: center;
+}
+
+.shopCart .content .empty img {
+    width: 40%;
+    height: 40%;
+    margin-top: 20%;
+    margin-bottom: 12%;
+}
+
+.shopCart .content .empty p {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 19px;
+}
+
+.shopCart .content .empty .cartBtn {
+    background-color: rgb(255, 127, 56);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+
+@media screen and (max-width:320px) {
+    .shopCart .content li div.order-ner2 button.del {
+        width: 31px;
+        white-space: pre-wrap;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .shopCart .content li:not(:first-child) img {
+        width: 120px;
+    }
+    .shopCart .content {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (width:360px) {
+    .shopCart .content li div.order-ner2 button.del {
+        width: 42px;
+        white-space: pre-wrap;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .shopCart .content li:not(:first-child) img {
+        width: 120px;
+    }
+    .shopCart .content {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

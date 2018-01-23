@@ -1,0 +1,198 @@
+.order-info-content{
+	overflow: hidden;
+	width: 96%;
+	margin-left:auto;
+	margin-right: auto;
+	background-color: #efeff4;
+}
+.order-info-content>li{
+	background-color: white;
+	border-radius: 0.342857rem;
+	margin-top: 0.571428rem;
+}
+.order-info-address>ul{
+	overflow: hidden;
+}
+.order-info-address li{
+	float: left;
+	width: 10%;
+}
+.order-info-address li:first-of-type>div{
+	width: inherit;
+	height: inherit;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.order-info-address li:first-of-type img{
+	vertical-align: middle;
+}
+.order-info-address li:last-of-type{
+	width: 90%;
+	padding-left:1.142857rem;
+}
+.order-info-address li:last-of-type>p:first-of-type{
+	color: black;
+	font-size: 1.142857rem;
+	font-weight: bolder;
+	padding-bottom: 0.571428rem;
+}
+.order-info-address li:last-of-type>p:first-of-type>span{
+	padding-left: 0.571428rem;
+}
+
+.order-info-address .mui-navigate-right:after{
+	display: none;
+}
+
+.order-info-content.mui-table-view:after,.order-info-content .mui-table-view-cell:after{
+	display: none;
+}
+
+.order-info-goodsList>ul{
+	padding: 0.571428rem;
+}
+.order-info-goodsList .goodsList-header{
+	position: relative;
+	border-bottom: 0.057142rem #eeeeee solid;
+	color: #7E8C8D;
+	vertical-align: middle;
+	padding: 0.285714rem 0 0.571428rem;
+	padding-left: 0.285714rem;
+}
+
+.order-info-goodsList .goodsList-header img{
+	width: 1.371428rem;
+	vertical-align: middle;
+	margin-right: 0.285714rem;
+}
+.order-info-goodsList .goodsList-header span{
+	vertical-align: middle;
+}
+
+.order-info-goodsList .goodsList-content{
+	overflow: hidden;
+	padding: 0.571428rem 0;
+}
+
+.order-info-goodsList .goodsList-content>div{
+	float: left;
+}
+
+.order-info-goodsList .goodsList-content>div>img{
+	width: 100%;
+}
+
+.order-info-goodsList .goodsList-content>div:first-of-type{
+	width: 30%;
+	text-align: center;
+}
+
+.order-info-goodsList .goodsList-content>div:last-of-type{
+	width: 70%;
+	padding-top: 0.685714rem;
+	padding-left: 0.571428rem;
+}
+
+.order-info-goodsList .goodsList-content>div:last-of-type p{
+	padding-bottom: 0.571428rem;
+}
+
+.order-info-goodsList .goodsList-content>div:last-of-type p:first-of-type{
+	color: black;
+	font-size: 1.2rem;
+	margin-bottom: 0.857142rem;
+}
+
+.order-info-goodsList .goodsList-content>div:last-of-type p:last-of-type{
+	padding-bottom: 0;
+	position: relative;
+}
+
+.order-info-goodsList .goodsList-content>div:last-of-type p:last-of-type span:nth-of-type(2){
+	text-decoration: line-through;
+	padding-left: 0.571428rem;
+}
+
+.order-info-goodsList .goodsList-content>div:last-of-type p:last-of-type span:nth-of-type(2n+1){
+	font-size: 1.142857rem;
+}
+
+.order-info-goodsList .goodsList-content>div:last-of-type p:last-of-type span:last-of-type{
+	position: absolute;
+	right: 0.857142rem;
+	bottom: 0;
+	color: black;
+}
+
+/*.order-info-goodsList .goodsList-freight,.order-info-goodsList .goodsList-remark{
+	border-top:0.057142rem #eeeeee solid;
+	padding: 0.571428rem 0;
+	padding-left: 0.285714rem;
+}*/
+/*.order-info-goodsList .goodsList-remark{
+	padding-bottom: 0.285714rem;
+}
+.order-info-goodsList .goodsList-remark>textarea{
+	width: 80%;
+	vertical-align: middle;
+}*/
+
+.order-info-data,.order-info-orderId{
+	padding: 0.571428rem;
+	padding-right: 1.142857rem;
+}
+
+.order-info-data>table{
+	width: 100%;
+}
+
+.order-info-data td{
+	width: 50%;
+	padding-bottom: 0.457142rem;
+}
+
+.order-info-data tr:last-of-type>td{
+	padding-bottom: 0;
+}
+
+.order-info-data td:nth-of-type(2n){
+	text-align: right;
+}
+
+.order-info-orderId>ul>li:first-of-type{
+	padding-bottom: 0.285714rem;
+	border-bottom: 0.057142rem #eeeeee solid;
+	color: #7E8C8D;
+}
+
+.order-info-orderId>ul>li:last-of-type{
+	overflow: hidden;
+	padding-top: 0.571428rem;
+}
+
+.order-info-orderId>ul>li:last-of-type>div{
+	float: left;
+	width: 50%;
+}
+
+.order-info-orderId>ul>li:last-of-type>div:last-of-type{
+	text-align: right;
+}
+
+.order-info-orderId>ul>li:last-of-type>div:last-of-type>button{
+	background-color: orangered;
+	color: white;
+	border-width: 0;
+	padding-left:1.714285rem;
+	padding-right:1.714285rem;
+}
+
+@media only screen and (max-width:360px) {
+	.submit-order-address li:last-of-type{
+		padding-left:0.857142rem;
+	}
+	.submit-order-goodsList .goodsList-content>div:last-of-type p:first-of-type{
+		margin-bottom: 1.428571rem;
+	}
+}

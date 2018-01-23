@@ -1,0 +1,175 @@
+.submit-order-content{
+	overflow: hidden;
+	width: 96%;
+	margin-left:auto;
+	margin-right: auto;
+	background-color: #efeff4;
+}
+.submit-order-content>li{
+	background-color: white;
+	border-radius: 0.342857rem;
+	margin-top: 0.571428rem;
+}
+
+.submit-order-address-v{
+	display: none;
+}
+
+.submit-order-address>ul,.submit-order-address-v>ul{
+	overflow: hidden;
+}
+.submit-order-address li,.submit-order-address-v li{
+	float: left;
+	width: 10%;
+}
+.submit-order-address li:first-of-type>div,.submit-order-address-v li:first-of-type>div{
+	width: inherit;
+	height: inherit;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.submit-order-address li:first-of-type img,.submit-order-address-v li:first-of-type img{
+	vertical-align: middle;
+}
+.submit-order-address li:last-of-type,.submit-order-address-v li:last-of-type{
+	width: 82%;
+	padding-left:0.285714rem ;
+}
+.submit-order-address li:last-of-type>p:first-of-type,.submit-order-address-v li:last-of-type>p{
+	color: black;
+	font-size: 1.142857rem;
+	font-weight: bolder;
+	padding-bottom: 0.571428rem;
+}
+.submit-order-address li:last-of-type>p:last-of-type{
+	word-break: break-all;
+}
+
+.submit-order-address-v li:last-of-type>p{
+	padding-top: 0.571428rem;
+	padding-left: 1.142857rem;
+}
+.submit-order-address li:last-of-type>p:first-of-type>span{
+	padding-left: 0.571428rem;
+}
+.submit-order-content.mui-table-view:after,.submit-order-content .mui-table-view-cell:after{
+	display: none;
+}
+
+.submit-order-goodsList>ul{
+	padding: 0.571428rem;
+}
+.submit-order-goodsList .goodsList-header{
+	position: relative;
+	border-bottom: 0.057142rem #eeeeee solid;
+	color: #7E8C8D;
+	vertical-align: middle;
+	padding: 0.285714rem 0 0.571428rem;
+	padding-left: 0.285714rem;
+}
+
+.submit-order-goodsList .goodsList-header img{
+	width: 1.371428rem;
+	vertical-align: middle;
+	margin-right: 0.285714rem;
+}
+.submit-order-goodsList .goodsList-header span{
+	vertical-align: middle;
+}
+
+.submit-order-goodsList .goodsList-content{
+	overflow: hidden;
+	padding: 0.571428rem 0;
+}
+
+.submit-order-goodsList .goodsList-content>div{
+	float: left;
+}
+
+.submit-order-goodsList .goodsList-content>div:first-of-type{
+	width: 30%;
+	text-align: center;
+}
+
+.submit-order-goodsList .goodsList-content>div:last-of-type{
+	width: 70%;
+	padding-top: 0.685714rem;
+}
+
+.submit-order-goodsList .goodsList-content>div:last-of-type p{
+	padding-bottom: 0.571428rem;
+}
+
+.submit-order-goodsList .goodsList-content>div:last-of-type p:first-of-type{
+	color: black;
+	font-size: 1.2rem;
+	margin-bottom: 0.857142rem;
+}
+
+.submit-order-goodsList .goodsList-content>div:last-of-type p:last-of-type{
+	padding-bottom: 0;
+	position: relative;
+}
+
+.submit-order-goodsList .goodsList-content>div:last-of-type p:last-of-type span:nth-of-type(2){
+	text-decoration: line-through;
+	padding-left: 0.571428rem;
+}
+
+.submit-order-goodsList .goodsList-content>div:last-of-type p:last-of-type span:nth-of-type(2n+1){
+	font-size: 1.142857rem;
+}
+
+.submit-order-goodsList .goodsList-content>div:last-of-type p:last-of-type span:last-of-type{
+	position: absolute;
+	right: 0.857142rem;
+	bottom: 0;
+	color: black;
+}
+
+.submit-order-goodsList .goodsList-freight,.submit-order-goodsList .goodsList-remark{
+	border-top:0.057142rem #eeeeee solid;
+	padding: 0.571428rem 0;
+	padding-left: 0.285714rem;
+}
+.submit-order-goodsList .goodsList-remark{
+	padding-bottom: 0.285714rem;
+}
+.submit-order-goodsList .goodsList-remark>textarea{
+	width: 80%;
+	vertical-align: middle;
+}
+.submit-order-prompting{
+	padding: 0.857142rem;
+	padding-left: 1.428571rem;
+	line-height: 1.657142rem;
+	color: #7E8C8D;
+	font-size: 1.028571rem;
+}
+.submit-order-footer{
+	padding: 0.857142rem 0.571428rem;
+	vertical-align: middle;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.submit-order-footer>button{
+	position: absolute;
+	top: 0.428571rem;
+	right: 0.571428rem;
+}
+@media only screen and (max-width:360px) {
+	.submit-order-address li:last-of-type{
+		padding-left:0.857142rem;
+	}
+	.submit-order-prompting{
+		padding: 1.142857rem;
+		line-height: 1.942857rem;
+		font-size: 1.257142rem;
+	}
+	.submit-order-goodsList .goodsList-content>div:last-of-type p:first-of-type{
+		margin-bottom: 1.428571rem;
+	}
+}

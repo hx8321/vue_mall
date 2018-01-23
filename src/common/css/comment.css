@@ -1,0 +1,45 @@
+.commentPage .commentPage-head .mui-icon-back:before, .mui-icon-left-nav:before{
+	color: silver;
+}
+.commentPage .commentPage-head .mui-title{
+	color:#7e8c8d;
+}
+.commentPage>div{
+	background-color: white;
+	padding: 0.857142rem;
+}
+.commentPage .commentPage-content{
+	border-bottom:0.028571rem solid rgba(126,140,141,0.2);
+	padding-bottom: 0.571428rem;
+	margin-bottom: 1.142857rem;
+}
+.commentPage .commentPage-content>li{
+	padding: 0.571428rem;
+}
+.commentPage .commentPage-content .cpc-user>img{
+	width: 2.571428rem;
+	vertical-align:middle;
+	margin-right: 0.571428rem;
+	border-radius: 50%;
+}
+.commentPage .commentPage-goods{
+	overflow: hidden;
+	background-color: rgba(202,202,202,0.4);
+	padding: 0.457142rem;
+}
+.commentPage .commentPage-goods>li{
+	float: left;
+	width: 30%;
+}
+.commentPage .commentPage-goods .cpg-img>img{
+	width: 80%;
+}
+.commentPage .commentPage-goods .cpg-content{
+	width: 70%;
+	padding-top: 0.742857rem;
+}
+.commentPage .commentPage-goods .cpg-content>p:first-of-type{
+	color: black;
+	font-size: 1.314285rem;
+	font-weight: 700;
+}

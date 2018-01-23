@@ -1,0 +1,6 @@
+#ui-nav.mui-bar{
+	background-color: black;
+}
+#ui-nav.mui-bar a,#ui-nav.mui-bar .mui-title{
+	color: white;
+}

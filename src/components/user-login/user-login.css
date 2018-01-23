@@ -1,0 +1,110 @@
+.userLogin {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(239, 239, 240);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.userLogin #ui-nav.mui-bar {
+    background-color: black;
+}
+
+.userLogin #ui-nav.mui-bar a,
+#ui-nav.mui-bar .mui-title {
+    color: white;
+    /*font-size: 22px;*/
+}
+
+.userLogin .user-con {
+    background-color: #fff;
+    margin-top: 60px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.userLogin .user-con ul li div.linek {
+    border-bottom: 1px solid rgb(126, 140, 141);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.userLogin .user-con ul li:first-child {
+    position: relative;
+}
+
+.userLogin .user-con ul li:first-child img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.userLogin .user-con ul li:first-child input {
+    padding-left: 50px;
+    border: none;
+}
+
+.userLogin .user-con ul li:last-child {
+    position: relative;
+}
+
+.userLogin .user-con ul li:last-child img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.userLogin .user-con ul li:last-child input {
+    padding-left: 50px;
+    border: none;
+}
+
+.userLogin .user-con .btn {
+    background-color: rgb(249, 89, 113);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.userLogin .user-con .user-footer {
+    margin-top: 16px;
+    padding-bottom: 100px;
+}
+
+.userLogin .user-con .user-footer a.noWord {
+    float: left;
+}
+
+.userLogin .user-con .user-footer a.register {
+    float: right;
+}
+
+
+/* 表单错误提示弹出款 */
+
+.modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}

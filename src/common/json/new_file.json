@@ -1,0 +1,81 @@
+{
+    "retCode": "000000",
+    "retMsg": "交易成功",
+    "url": null,
+    "data": {
+        "responseInfo": [
+            {
+                "skuIds": "104",
+                "skuCode": "10000710006301",
+                "skuSalePrice": 199,
+                "skuMarketPrice": 899,
+                "skuStock": 100,
+                "skuSales": 22,
+                "filePath": "../../../static/img/jly-rice1.jpg",
+                "skuOptionIds": "10;12",
+                "attrList": [
+                    {
+                        "attrName": "bodybuildsize",
+                        "attrValue": "1.6米"
+                    }
+                ]
+            },
+            {
+                "skuIds": "105",
+                "skuCode": "10000710006302",
+                "skuSalePrice": 8000,
+                "skuMarketPrice": 899,
+                "skuStock": 10,
+                "skuSales": 2,
+                "filePath": "../../../static/img/jly-rice2.jpg",
+                "skuOptionIds": "11;12",
+                "attrList": [
+                    {
+                        "attrName": "bodybuildcolor",
+                        "attrValue": "黑色"
+                    },
+                    {
+                        "attrName": "bodybuildsize",
+                        "attrValue": "1.5米"
+                    }
+                ]
+            },
+            {
+                "skuIds": "106",
+                "skuCode": "10000710006303",
+                "skuSalePrice": 2200,
+                "skuMarketPrice": 899,
+                "skuStock": 20,
+                "skuSales": 10,
+                "filePath": "../../../static/img/jly-rice3.jpg",
+                "skuOptionIds": "10;13",
+                "attrList": [
+                    {
+                        "attrName": "bodybuildsize",
+                        "attrValue": "1.7米"
+                    },
+                    {
+                        "attrName": "bodybuildcolor",
+                        "attrValue": "红色"
+                    }
+                ]
+            },
+            {
+                "skuIds": "107",
+                "skuCode": "10000710006304",
+                "skuSalePrice": 1999,
+                "skuMarketPrice": 899,
+                "skuStock": 24,
+                "skuSales": 12,
+                "filePath": "../../../static/img/jly-rice1.jpg",
+                "skuOptionIds": "11;13",
+                "attrList": [
+                    {
+                        "attrName": "bodybuildcolor",
+                        "attrValue": "黄色"
+                    }
+                ]
+            }
+        ]
+    }
+}

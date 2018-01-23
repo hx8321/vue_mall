@@ -1,0 +1,70 @@
+.user-center .mui-table-view-cell>a:not(.mui-btn) {
+	color:#7e8c8d;
+}
+.user-center .mui-navigate-right img{
+	margin-right: 0.571428rem;
+}
+.user-center .user-center-touxian{
+	background-image: url(../../assets/user-background.jpg);
+	color: white;
+}
+.user-center-touxian .mui-navigate-right:after{
+	/*color: white;*/
+	display: none;
+}
+.user-center-touxian img{
+	border-radius: 50%;
+	border: 0.285714rem white solid;
+	width: 4rem;
+}
+.user-center-touxian span{
+	display: inline-block;
+	height: 4rem;
+	line-height: 4rem;
+	vertical-align:top;
+	padding-left: 0.571428rem;
+}
+.user-center-order img{
+	width: 1.085714rem;
+}
+.user-center-order span,.user-center-binding span{
+	position: absolute;
+	right: 2rem;
+}
+.user-center-order+li{
+	padding: 0.742857rem 0.514285rem;
+}
+.user-center-orderlist{
+	overflow: hidden;
+	position: relative;
+	height: auto;
+	padding: 0.571428rem 0
+}
+.user-center-orderlist>li{
+	float: left;
+	width: 25%;
+	/*width: 20%;*/
+	text-align: center;
+	padding: 0.285714rem;
+}
+.user-center-orderlist>li>a{
+	font-size: 1.085714rem;
+	color: #7e8c8d;
+}
+.user-center-orderlist>li img{
+	display:block;
+	width: 34%;
+	margin: 0 auto;
+	margin-bottom: 0.571428rem;
+}
+.user-center .mui-navigate-right:after, .mui-push-right:after {
+	right: 0.571428rem;
+}
+@media only screen and (max-width:360px) {
+	.user-center-order span,.user-center-binding span{
+		right: 2.857142rem;
+	}
+	.user-center-orderlist>li>a{
+		font-size: 1.314285rem;
+	}
+}

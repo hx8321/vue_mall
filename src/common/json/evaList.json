@@ -1,0 +1,8 @@
+{
+	"rows":[
+		{"goodsids":11,"goodspath":"","goodstile":"pp1","count":"10","content":"aaaaaaaaaaaaaaaaaaaaaaaaaa","createtime":"2017-5-5"},
+		{"goodsids":12,"goodspath":"","goodstile":"pp2","count":"10","content":"bbbbbbbbbbbbbbbbbbbbbbbbbb","createtime":"2017-6-5"},
+		{"goodsids":13,"goodspath":"","goodstile":"pp3","count":"10","content":"cccccccccccccccccccccccccc","createtime":"2017-7-5"}
+	],
+	"total":3
+}

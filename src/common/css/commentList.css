@@ -1,0 +1,44 @@
+.commentList .commentList-connect{
+	padding: 0.857142rem 0.571428rem;
+}
+.commentList .commentList-connect>li{
+	margin-bottom: 0.857142rem;
+	border-radius: 0.571428rem;
+}
+.commentList .commentList-item{
+	padding: 0.571428rem;
+	font-size: 1.428571rem;
+	color: #8F8F94;
+	background-color: white;
+}
+.commentList .commentList-item li{
+	padding: 0.457142rem 0;
+}
+.commentList .commentList-item .commentList-user{
+	color: black;
+}
+.commentList .commentList-item .commentList-user>img{
+	width: 2.571428rem;
+	vertical-align:middle;
+	margin-right: 0.857142rem;
+	border-radius: 50%;
+}
+.commentList .commentList-item .commentList-score>img{
+	width:1.714285rem;
+}
+.commentList .commentList-item .commentList-write{
+	text-align: right;
+}
+.commentList .commentList-item .commentList-write>button{
+	border-radius: 1.142857rem;
+	/*border-color: orangered;
+	color: orangered;*/
+}
+.commentList .commentList-item .commentList-write>button>span{
+	padding-left: 0.857142rem;
+}
+.commentList .unMore{
+	background-color: white;
+	text-align: center;
+	padding: 0.571428rem 0;
+}

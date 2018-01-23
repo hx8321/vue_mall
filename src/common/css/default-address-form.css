@@ -1,0 +1,55 @@
+.form-content{
+	color: #7e8c8d;
+}
+.form-content>ul{
+	padding:0  0.571428rem;
+}
+.form-content>ul>li{
+	position: relative;
+	overflow: hidden;
+	padding: 0.857142rem 0;
+}
+.form-content>ul>li.mui-checkbox{
+	padding: 0;
+	margin-top: 0.571428rem;
+}
+.form-content>ul>li:after{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.form-content>ul>li.mui-checkbox:after{
+	display: none;
+}
+.form-content .mui-checkbox input[type=checkbox]:checked:before{
+	color: orangered;
+}
+.form-content>ul>li>div{
+	float: left;
+	width: 28%;
+}
+.form-content>ul>li>div:first-of-type{
+	padding-left: 0.571428rem;
+}
+.form-content>ul>li>div:last-of-type{
+	width: 72%;
+}
+.form-content input[type=text],.form-content textarea{
+	margin-bottom: 0;
+}
+.form-content button{
+	margin-top: 0.857142rem;
+	padding-bottom: 0.571428rem;
+	padding-top: 0.571428rem;
+}
+@media only screen and (max-width:340px) {
+	.form-content>ul>li>div:first-of-type{
+		padding-left: 0;
+	}
+}

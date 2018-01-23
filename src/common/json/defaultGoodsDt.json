@@ -1,0 +1,19 @@
+{
+	"ids": "p001",
+    "vendorids": "user",
+    "title": "金龙鱼大米",
+    "filepath":["../../../static/img/jly-rice1.jpg","../../../static/img/jly-rice2.jpg","../../../static/img/jly-rice3.jpg"],
+    "price": 88.88,
+    "standard": "袋",
+    "content": "<p>nn</p>",
+    "storeNum": 999,
+    "limitOrderNum": 10,
+    "orgPrice": 99,
+    "collNum": 888,
+    "totalTrade":12,
+    "vendorSnm":"咪咕",
+    "servicePhone":"8888888888",
+    "isDisStandard":"1/3装",
+    "venderIntro":"咪咕盗版金龙鱼",
+    "venderExplain":"专业盗版30年"
+}

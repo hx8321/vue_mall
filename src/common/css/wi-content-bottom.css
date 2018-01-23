@@ -1,0 +1,72 @@
+.wi-content-bottom{
+	margin-bottom:3.142857rem;
+	margin-top: 0.571428rem;
+}
+.wi-content-bottom>div:nth-child(n+1)>div>img{
+	width: 100%;
+}
+.wi-content-bottom>div:nth-child(n+1){
+	padding: 0.571428rem;
+}
+.wi-content-bottom #wicb-seller{
+	text-indent: 2em;
+	text-justify: auto;
+}
+.wi-content-bottom #wicb-guarantee>div{
+	padding: 0.571428rem;
+}
+.wi-content-bottom #wicb-ware .boderbottom{
+	border-bottom: 0.028571rem dashed silver;
+}
+.wi-content-bottom .text-middle{
+	text-align: center;
+}
+.wi-content-bottom p{
+	word-break: break-all;
+}
+/*.wi-content-bottom #wicb-comment{
+	position: static;
+}*/
+.wi-content-bottom #wicb-comment ul{
+	background-color: white;
+}
+.wi-content-bottom #wicb-comment ul>li{
+	padding: 0.571428rem;
+	font-size: 1.428571rem;
+	color: #8F8F94;
+}
+.wi-content-bottom #wicb-comment .comment-user{
+	color: black;
+}
+.wi-content-bottom #wicb-comment .comment-user>img{
+	width: 2.571428rem;
+	vertical-align:middle;
+	margin-right: 0.857142rem;
+	border-radius: 50%;
+}
+.wi-content-bottom #wicb-comment .comment-score>img{
+	width:1.714285rem;
+}
+.wi-content-bottom #wicb-comment .comment-write{
+	text-align: center;
+}
+.wi-content-bottom #wicb-comment .comment-write>button{
+	border-radius: 1.142857rem;
+	border-color: orangered;
+	color: orangered;
+}
+.wi-content-bottom #wicb-comment .comment-write>button>span{
+	padding-left: 0.857142rem;
+}
+.wi-content-bottom #wicb-comment .comment-unConnect{
+	text-align: center;
+	background-color: white;
+	color: #8F8F94;
+	font-size: 1.2rem;
+	padding: 0.571428rem 0;
+}
+@media only screen and (max-width:360px) {
+	.wi-content-bottom{
+		margin-bottom:4rem;
+	}
+}
